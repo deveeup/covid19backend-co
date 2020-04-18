@@ -13,7 +13,13 @@ deploy:
   provide: heroku
   skip-cleanup: true
   keep-history: true
-  api_key: 5f12ee20-2130-4cca-8755-7e3b9fb9b069 
+  api_key: 
+    secure: "ne9OSOhQGR0q2ihb1N1d25KaYE5lGqDOJ6yZPCa2O6cEZe5e4eGYOvXeH6Bw3QWxTVSZ4mtguk8YR7FfcDgMzOsOpmDSa4mY/SGWGT4+ZbV0BON
+nmOPrXixrqNTER5X5jgDRiO/SIMg+LKwoOo+tRW1A6/MCLHqQxhcEXEH4AVWh4KN9IPlAqEPHwFEEbphba2lcrOzVdOs4DU92yzjYKVZbOTldfqxsxVwxsevPK
+oTAJVJuYIbT9kM5jJA99bFgEBPpiY3j3JpmCyrJkSEh1fYd42/6O2rBJP6zlnmBHhPFRCC626dHw/a1lLfjt9ZE/XsWNtUpjLmFGy3X3SQh4iWG8Zve1f89RUI
+RE6gu4UwhFrLhG/aARpji7+ai8OpSi0LJkhmQEmRX71dQjiqNOPvMwNYKVdzz3f7MuncAnIM0QUwDzwHhTRC6VhsKps4foGrUNJKWTftZGZke9/gcSJSZ+7W/g
+t9PSPS/PKP7i6UHax1UgEud02Nv/FwaXXnJdpl3e/Gu+FG0HvxKhL9r4HskeYI50EblWMWpw9f/dDI7XtE2vzQeekifvttYvmodPiW0+1vGW8wgwiCgLyX7twb
+BBXtpUyk2J2lVmxUqUpIsxwRTj91UHazCYJpRpe17MjY6nxoFA+w1N8G1Um8BcSc03iRsd6xT+fU5TztEL+A=" 
   app: covid19backend-co
   on:
     repo: deveeup/covid19backend-co
