@@ -1,23 +1,18 @@
 language: node_js
-
 cache:
   directories:
     - node_modules
     - ~/.npm
-
 node_js:
   - '12'
-
 git:
   depth: 3
-
 notifications:
   email:
     reciepients:
       - jossedaviid1@gmail.com
     on_success: always
     on_failure: always
-
 deploy:
   provide: heroku
   skip-cleanup: true
