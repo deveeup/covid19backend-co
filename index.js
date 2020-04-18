@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const axios = require('axios');
 const port = process.env.PORT || 3000;
+require('dotenv').config();
+
 app.get('/', function (req, res) {
   /*
   axios.get('https://www.datos.gov.co/api/views/gt2j-8ykr/rows.json?accessType=DOWNLOAD')
