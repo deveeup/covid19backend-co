@@ -3,7 +3,7 @@ const app = express();
 const axios = require('axios');
 require('dotenv').config();
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 const URL_API = process.env.URL_API;
 
 app.get('/', function (req, res) {
@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
     .then(function (response) {
       const data = response.data.data;
       let colombia = {
-        long: 0,
+        count: 0,
         name: "Colombia",
         sexM: 0,
         sexF: 0,
