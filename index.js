@@ -413,7 +413,8 @@ app.get('/', function (req, res) {
 });
 */
   res.send(`port: ${port}... url: ${process.env.URL_API}`);
+});
 
-  app.listen(port, function () {
-    console.log('run backend...');
-  });
+app.listen(port, function () {
+  console.log('run backend...');
+});
