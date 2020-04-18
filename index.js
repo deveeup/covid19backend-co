@@ -413,8 +413,8 @@ app.get('/', function (req, res) {
     });
 });
 */
-  res.send(port);
+  res.send(`other port: ${port}`);
 });
-app.listen(port, function () {
+app.listen(3000, function () {
   console.log('run backend...');
 });
