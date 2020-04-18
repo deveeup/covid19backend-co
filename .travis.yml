@@ -11,8 +11,6 @@ node_js:
 git:
   depth: 3
 
-script:
-  - yarn test
 
 notifications:
   email:
@@ -25,7 +23,7 @@ deploy:
   provide: heroku
   skip-cleanup: true
   keep-history: true
-  api_key: apiKey 
+  api_key: 5f12ee20-2130-4cca-8755-7e3b9fb9b069 
   app: covid19backend-co
   on:
-    repo: 
+    repo: deveeup/covid19backend-co
