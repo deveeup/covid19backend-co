@@ -415,6 +415,6 @@ app.get('/', function (req, res) {
 */
   res.send(`other port: ${port}`);
 });
-app.listen(3000, function () {
+app.listen(port, function () {
   console.log('run backend...');
 });
