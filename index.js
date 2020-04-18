@@ -4,7 +4,6 @@ const axios = require('axios');
 require('dotenv').config();
 const port = process.env.PORT || 3000;
 app.get('/', function (req, res) {
-  /*
   axios.get(process.env.URL_API)
     .then(function (response) {
       const data = response.data.data;
@@ -411,9 +410,6 @@ app.get('/', function (req, res) {
     })
     .catch(function (error) {
     });
-});
-*/
-  res.send(`other port: ${port}`);
 });
 app.listen(port, function () {
   console.log('run backend...');
