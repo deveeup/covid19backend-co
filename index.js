@@ -1,12 +1,13 @@
 const express = require('express');
 const app = express();
 const axios = require('axios');
-const port = process.env.PORT || 3000;
 require('dotenv').config();
 
+const PORT = process.env.PORT || 3000;
+const URL_API = process.env.URL_API;
+
 app.get('/', function (req, res) {
-  /*
-  axios.get('https://www.datos.gov.co/api/views/gt2j-8ykr/rows.json?accessType=DOWNLOAD')
+  axios.get(URL_API)
     .then(function (response) {
       const data = response.data.data;
       let colombia = {
@@ -413,10 +414,7 @@ app.get('/', function (req, res) {
     .catch(function (error) {
     });
 });
-*/
-  res.send(`port: ${port}... url: ${process.env.URL_API}`);
-});
 
-app.listen(port, function () {
+app.listen(PORT, function () {
   console.log('run backend...');
 });
