@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const axios = require('axios');
 require('dotenv').config();
-
+const port = process.env.PORT || 3000;
 app.get('/', function (req, res) {
   axios.get(process.env.URL_API)
     .then(function (response) {
@@ -412,6 +412,6 @@ app.get('/', function (req, res) {
     });
 });
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
+app.listen(port, function () {
+  console.log('run backend...');
 });
