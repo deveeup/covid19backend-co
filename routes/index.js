@@ -1,13 +1,20 @@
 const express = require('express');
 const axios = require('axios');
+const moment = require('moment');
 const { config } = require('../config');
+const DepartamentsService = require('../services/departaments');
+const ColombiaService = require('../services/colombia');
 
 function covidApi(app) {
   const router = express.Router();
   app.use('/api', router);
-  router.get('/', function (req, res) {
+  const departamentService = new DepartamentsService();
+  const colombiaService = new ColombiaService();
+  router.get('/setData', async function (req, res) {
+    const today = moment(new Date());
+    const todayFormat = moment(today).format('DD/MM/YYYY');
     axios.get(config.urlApi)
-      .then(function (response) {
+      .then(async function (response) {
         const purifyDepartaments = [];
         const departaments = [];
         const colombia = {
@@ -104,7 +111,27 @@ function covidApi(app) {
             }
           });
         });
-        res.send({ colombia, departaments });
+        try {
+          const insertDepartaments = await departamentService.createDepartament({
+            date: todayFormat,
+            data: departaments
+          });
+          const insertGlobalData = await colombiaService.createData({
+            date: todayFormat,
+            data: colombia
+          });
+          res.send({
+            insertGlobalData,
+            insertDepartaments,
+            message: "successful..."
+          });
+        } catch (err) {
+          console.log(err)
+          res.send({
+            error: true,
+            message: 'Ha ocurrido un error'
+          });
+        }
       })
       .catch(function (error) {
         console.log(error)
@@ -117,8 +144,3 @@ function covidApi(app) {
 };
 
 module.exports = covidApi;
-
-
-
-
-
