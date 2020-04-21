@@ -9,5 +9,5 @@ app.use(express.json());
 covidApi(app);
 
 app.listen(config.port, function () {
-  console.log(`Listening http://localhost:${config.port} || ${config.urlApi}`);
+  console.log(`Running covid19colombia, listen in port: ${config.port}`);
 });

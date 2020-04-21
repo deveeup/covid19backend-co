@@ -141,6 +141,36 @@ function covidApi(app) {
         });
       });
   });
+  router.get('/departaments/:date', async function (req, res) {
+    const { date } = req.params;
+    try {
+      const departaments = await departamentService.getDepartaments({ date });
+      res.send({
+        status: 'ok',
+        departaments
+      });
+    } catch (err) {
+      res.send({
+        status: "error",
+        error: err.message,
+      })
+    }
+  });
+  router.get('/colombia/:date', async function (req, res) {
+    const { date } = req.params;
+    try {
+      const data = await colombiaService.getData({ date });
+      res.send({
+        status: 'ok',
+        data
+      });
+    } catch (err) {
+      res.send({
+        status: 'error',
+        error: err.message,
+      })
+    }
+  });
 };
 
 module.exports = covidApi;
