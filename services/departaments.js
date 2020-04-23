@@ -7,7 +7,7 @@ class DepartamentsService {
   }
   async getDepartaments({ date }) {
     const departaments = await this.mongoDB.get(this.collection, date);
-    return departaments || {};
+    return departaments || [];
   }
   async createDepartament(departament) {
     const createDepartamentId = await this.mongoDB.create(this.collection, departament);

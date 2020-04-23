@@ -1,11 +1,14 @@
 const express = require('express');
 const axios = require('axios');
 const moment = require('moment');
+const momentTz = require('moment-timezone');
 const { config } = require('../config');
 const DepartamentsService = require('../services/departaments');
 const ColombiaService = require('../services/colombia');
 
 function covidApi(app) {
+  moment.locale('es');
+  momentTz().tz("America/Bogota").format();
   const router = express.Router();
   app.use('/api', router);
   const departamentService = new DepartamentsService();
@@ -13,6 +16,7 @@ function covidApi(app) {
   router.get('/setData', async function (req, res) {
     const today = moment(new Date());
     const todayFormat = moment(today).format('DD/MM/YYYY');
+    const hourFormat = moment(today).format("hh:mm a");
     axios.get(config.urlApi)
       .then(async function (response) {
         const purifyDepartaments = [];
@@ -114,10 +118,12 @@ function covidApi(app) {
         try {
           const insertDepartaments = await departamentService.createDepartament({
             date: todayFormat,
+            hour: hourFormat,
             data: departaments
           });
           const insertGlobalData = await colombiaService.createData({
             date: todayFormat,
+            hour: hourFormat,
             data: colombia
           });
           res.send({
