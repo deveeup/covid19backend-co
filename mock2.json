@@ -1,0 +1,3002 @@
+{
+  "status": "ok",
+  "departaments": {
+  "_id": "5ea494c6286ae30017b16717",
+  "date": "25-04-2020",
+  "hour": "07:51 pm",
+  "data": [
+  {
+  "name": "Bogotá D.C.",
+  "sexM": 1026,
+  "sexF": 1039,
+  "recovered": 370,
+  "inHouse": 1475,
+  "inHospital": 101,
+  "dead": 81,
+  "ageRange": {
+  "smallerThan20": 192,
+  "between20And40": 873,
+  "between40And60": 634,
+  "greaterThan60": 366
+  },
+  "total": 2065
+  },
+  {
+  "name": "Guadalajara de Buga",
+  "sexM": 5,
+  "sexF": 3,
+  "recovered": 1,
+  "inHouse": 7,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 4,
+  "between40And60": 3,
+  "greaterThan60": 1
+  },
+  "total": 8
+  },
+  {
+  "name": "Medellín",
+  "sexM": 133,
+  "sexF": 152,
+  "recovered": 80,
+  "inHouse": 190,
+  "inHospital": 5,
+  "dead": 2,
+  "ageRange": {
+  "smallerThan20": 24,
+  "between20And40": 140,
+  "between40And60": 89,
+  "greaterThan60": 32
+  },
+  "total": 285
+  },
+  {
+  "name": "Itagüí",
+  "sexM": 6,
+  "sexF": 10,
+  "recovered": 5,
+  "inHouse": 9,
+  "inHospital": 1,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 4,
+  "between40And60": 5,
+  "greaterThan60": 6
+  },
+  "total": 16
+  },
+  {
+  "name": "Cartagena de Indias",
+  "sexM": 104,
+  "sexF": 96,
+  "recovered": 56,
+  "inHouse": 105,
+  "inHospital": 14,
+  "dead": 17,
+  "ageRange": {
+  "smallerThan20": 21,
+  "between20And40": 77,
+  "between40And60": 70,
+  "greaterThan60": 32
+  },
+  "total": 200
+  },
+  {
+  "name": "Neiva",
+  "sexM": 31,
+  "sexF": 33,
+  "recovered": 23,
+  "inHouse": 31,
+  "inHospital": 4,
+  "dead": 3,
+  "ageRange": {
+  "smallerThan20": 3,
+  "between20And40": 18,
+  "between40And60": 26,
+  "greaterThan60": 17
+  },
+  "total": 64
+  },
+  {
+  "name": "Palmira",
+  "sexM": 24,
+  "sexF": 23,
+  "recovered": 15,
+  "inHouse": 27,
+  "inHospital": 0,
+  "dead": 4,
+  "ageRange": {
+  "smallerThan20": 11,
+  "between20And40": 12,
+  "between40And60": 17,
+  "greaterThan60": 7
+  },
+  "total": 47
+  },
+  {
+  "name": "Villavicencio",
+  "sexM": 136,
+  "sexF": 17,
+  "recovered": 9,
+  "inHouse": 140,
+  "inHospital": 0,
+  "dead": 4,
+  "ageRange": {
+  "smallerThan20": 7,
+  "between20And40": 90,
+  "between40And60": 39,
+  "greaterThan60": 17
+  },
+  "total": 153
+  },
+  {
+  "name": "Rionegro",
+  "sexM": 7,
+  "sexF": 3,
+  "recovered": 8,
+  "inHouse": 2,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 5,
+  "between40And60": 4,
+  "greaterThan60": 1
+  },
+  "total": 10
+  },
+  {
+  "name": "Cali",
+  "sexM": 338,
+  "sexF": 288,
+  "recovered": 82,
+  "inHouse": 410,
+  "inHospital": 61,
+  "dead": 39,
+  "ageRange": {
+  "smallerThan20": 40,
+  "between20And40": 264,
+  "between40And60": 201,
+  "greaterThan60": 121
+  },
+  "total": 626
+  },
+  {
+  "name": "Dosquebradas",
+  "sexM": 16,
+  "sexF": 28,
+  "recovered": 6,
+  "inHouse": 36,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 2,
+  "between20And40": 18,
+  "between40And60": 20,
+  "greaterThan60": 4
+  },
+  "total": 44
+  },
+  {
+  "name": "Cúcuta",
+  "sexM": 27,
+  "sexF": 28,
+  "recovered": 17,
+  "inHouse": 32,
+  "inHospital": 1,
+  "dead": 3,
+  "ageRange": {
+  "smallerThan20": 7,
+  "between20And40": 20,
+  "between40And60": 19,
+  "greaterThan60": 9
+  },
+  "total": 55
+  },
+  {
+  "name": "Manizales",
+  "sexM": 7,
+  "sexF": 5,
+  "recovered": 7,
+  "inHouse": 5,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 6,
+  "between40And60": 1,
+  "greaterThan60": 4
+  },
+  "total": 12
+  },
+  {
+  "name": "Subachoque",
+  "sexM": 2,
+  "sexF": 1,
+  "recovered": 2,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 2,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 3
+  },
+  {
+  "name": "Soacha",
+  "sexM": 20,
+  "sexF": 25,
+  "recovered": 10,
+  "inHouse": 28,
+  "inHospital": 5,
+  "dead": 2,
+  "ageRange": {
+  "smallerThan20": 4,
+  "between20And40": 26,
+  "between40And60": 11,
+  "greaterThan60": 4
+  },
+  "total": 45
+  },
+  {
+  "name": "Barranquilla",
+  "sexM": 46,
+  "sexF": 48,
+  "recovered": 33,
+  "inHouse": 49,
+  "inHospital": 4,
+  "dead": 5,
+  "ageRange": {
+  "smallerThan20": 13,
+  "between20And40": 37,
+  "between40And60": 30,
+  "greaterThan60": 14
+  },
+  "total": 94
+  },
+  {
+  "name": "Floridablanca",
+  "sexM": 5,
+  "sexF": 2,
+  "recovered": 6,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 2,
+  "between40And60": 4,
+  "greaterThan60": 1
+  },
+  "total": 7
+  },
+  {
+  "name": "Armenia",
+  "sexM": 20,
+  "sexF": 21,
+  "recovered": 17,
+  "inHouse": 23,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 2,
+  "between20And40": 18,
+  "between40And60": 11,
+  "greaterThan60": 10
+  },
+  "total": 41
+  },
+  {
+  "name": "Pereira",
+  "sexM": 40,
+  "sexF": 59,
+  "recovered": 23,
+  "inHouse": 70,
+  "inHospital": 1,
+  "dead": 4,
+  "ageRange": {
+  "smallerThan20": 12,
+  "between20And40": 45,
+  "between40And60": 26,
+  "greaterThan60": 16
+  },
+  "total": 99
+  },
+  {
+  "name": "Cajicá",
+  "sexM": 7,
+  "sexF": 7,
+  "recovered": 5,
+  "inHouse": 8,
+  "inHospital": 1,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 9,
+  "between40And60": 5,
+  "greaterThan60": 0
+  },
+  "total": 14
+  },
+  {
+  "name": "Ibagué",
+  "sexM": 17,
+  "sexF": 19,
+  "recovered": 16,
+  "inHouse": 18,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 4,
+  "between20And40": 19,
+  "between40And60": 9,
+  "greaterThan60": 4
+  },
+  "total": 36
+  },
+  {
+  "name": "Bucaramanga",
+  "sexM": 7,
+  "sexF": 12,
+  "recovered": 11,
+  "inHouse": 7,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 13,
+  "between40And60": 4,
+  "greaterThan60": 2
+  },
+  "total": 19
+  },
+  {
+  "name": "Popayán",
+  "sexM": 7,
+  "sexF": 8,
+  "recovered": 9,
+  "inHouse": 4,
+  "inHospital": 1,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 2,
+  "between20And40": 7,
+  "between40And60": 4,
+  "greaterThan60": 2
+  },
+  "total": 15
+  },
+  {
+  "name": "Viterbo",
+  "sexM": 0,
+  "sexF": 2,
+  "recovered": 2,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 2
+  },
+  {
+  "name": "Anapoima",
+  "sexM": 2,
+  "sexF": 0,
+  "recovered": 2,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 2
+  },
+  {
+  "name": "La Estrella",
+  "sexM": 5,
+  "sexF": 4,
+  "recovered": 2,
+  "inHouse": 7,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 4,
+  "between40And60": 5,
+  "greaterThan60": 0
+  },
+  "total": 9
+  },
+  {
+  "name": "Envigado",
+  "sexM": 12,
+  "sexF": 16,
+  "recovered": 11,
+  "inHouse": 16,
+  "inHospital": 1,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 2,
+  "between20And40": 13,
+  "between40And60": 8,
+  "greaterThan60": 5
+  },
+  "total": 28
+  },
+  {
+  "name": "Santa Marta",
+  "sexM": 55,
+  "sexF": 66,
+  "recovered": 12,
+  "inHouse": 81,
+  "inHospital": 15,
+  "dead": 11,
+  "ageRange": {
+  "smallerThan20": 8,
+  "between20And40": 47,
+  "between40And60": 39,
+  "greaterThan60": 27
+  },
+  "total": 121
+  },
+  {
+  "name": "Chía",
+  "sexM": 12,
+  "sexF": 13,
+  "recovered": 6,
+  "inHouse": 19,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 4,
+  "between20And40": 5,
+  "between40And60": 14,
+  "greaterThan60": 2
+  },
+  "total": 25
+  },
+  {
+  "name": "Madrid",
+  "sexM": 3,
+  "sexF": 5,
+  "recovered": 4,
+  "inHouse": 4,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 7,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 8
+  },
+  {
+  "name": "Villa del Rosario",
+  "sexM": 2,
+  "sexF": 1,
+  "recovered": 2,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 2,
+  "between40And60": 0,
+  "greaterThan60": 1
+  },
+  "total": 3
+  },
+  {
+  "name": "Cartago",
+  "sexM": 1,
+  "sexF": 8,
+  "recovered": 6,
+  "inHouse": 3,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 4,
+  "between40And60": 3,
+  "greaterThan60": 1
+  },
+  "total": 9
+  },
+  {
+  "name": "Guarne",
+  "sexM": 2,
+  "sexF": 1,
+  "recovered": 2,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 2,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 3
+  },
+  {
+  "name": "Bello",
+  "sexM": 26,
+  "sexF": 23,
+  "recovered": 12,
+  "inHouse": 35,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 5,
+  "between20And40": 25,
+  "between40And60": 16,
+  "greaterThan60": 3
+  },
+  "total": 49
+  },
+  {
+  "name": "Calarcá",
+  "sexM": 3,
+  "sexF": 3,
+  "recovered": 0,
+  "inHouse": 6,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 3,
+  "between40And60": 0,
+  "greaterThan60": 2
+  },
+  "total": 6
+  },
+  {
+  "name": "Valledupar",
+  "sexM": 24,
+  "sexF": 13,
+  "recovered": 17,
+  "inHouse": 16,
+  "inHospital": 2,
+  "dead": 2,
+  "ageRange": {
+  "smallerThan20": 5,
+  "between20And40": 21,
+  "between40And60": 9,
+  "greaterThan60": 2
+  },
+  "total": 37
+  },
+  {
+  "name": "La Dorada",
+  "sexM": 10,
+  "sexF": 21,
+  "recovered": 2,
+  "inHouse": 27,
+  "inHospital": 0,
+  "dead": 2,
+  "ageRange": {
+  "smallerThan20": 5,
+  "between20And40": 13,
+  "between40And60": 8,
+  "greaterThan60": 5
+  },
+  "total": 31
+  },
+  {
+  "name": "Chinchiná",
+  "sexM": 2,
+  "sexF": 2,
+  "recovered": 3,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 2,
+  "between40And60": 2,
+  "greaterThan60": 0
+  },
+  "total": 4
+  },
+  {
+  "name": "San Andrés",
+  "sexM": 6,
+  "sexF": 0,
+  "recovered": 2,
+  "inHouse": 4,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 2,
+  "between40And60": 3,
+  "greaterThan60": 1
+  },
+  "total": 6
+  },
+  {
+  "name": "Yumbo",
+  "sexM": 11,
+  "sexF": 11,
+  "recovered": 4,
+  "inHouse": 16,
+  "inHospital": 1,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 5,
+  "between20And40": 9,
+  "between40And60": 6,
+  "greaterThan60": 2
+  },
+  "total": 22
+  },
+  {
+  "name": "Yopal",
+  "sexM": 3,
+  "sexF": 7,
+  "recovered": 2,
+  "inHouse": 8,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 6,
+  "between40And60": 2,
+  "greaterThan60": 1
+  },
+  "total": 10
+  },
+  {
+  "name": "Guatapé",
+  "sexM": 1,
+  "sexF": 1,
+  "recovered": 1,
+  "inHouse": 0,
+  "inHospital": 1,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 2
+  },
+  {
+  "name": "Cota",
+  "sexM": 4,
+  "sexF": 5,
+  "recovered": 6,
+  "inHouse": 3,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 2,
+  "between20And40": 1,
+  "between40And60": 6,
+  "greaterThan60": 0
+  },
+  "total": 9
+  },
+  {
+  "name": "Sabaneta",
+  "sexM": 5,
+  "sexF": 4,
+  "recovered": 7,
+  "inHouse": 2,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 4,
+  "between40And60": 4,
+  "greaterThan60": 1
+  },
+  "total": 9
+  },
+  {
+  "name": "Villamaría",
+  "sexM": 2,
+  "sexF": 1,
+  "recovered": 2,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 2,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 3
+  },
+  {
+  "name": "Trujillo",
+  "sexM": 2,
+  "sexF": 1,
+  "recovered": 1,
+  "inHouse": 2,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 1,
+  "greaterThan60": 1
+  },
+  "total": 3
+  },
+  {
+  "name": "Pacho",
+  "sexM": 5,
+  "sexF": 6,
+  "recovered": 0,
+  "inHouse": 8,
+  "inHospital": 3,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 2,
+  "between20And40": 6,
+  "between40And60": 3,
+  "greaterThan60": 0
+  },
+  "total": 11
+  },
+  {
+  "name": "Retiro",
+  "sexM": 0,
+  "sexF": 1,
+  "recovered": 1,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Apartadó",
+  "sexM": 2,
+  "sexF": 2,
+  "recovered": 1,
+  "inHouse": 3,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 4,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 4
+  },
+  {
+  "name": "Ipiales",
+  "sexM": 26,
+  "sexF": 16,
+  "recovered": 1,
+  "inHouse": 35,
+  "inHospital": 1,
+  "dead": 3,
+  "ageRange": {
+  "smallerThan20": 7,
+  "between20And40": 18,
+  "between40And60": 11,
+  "greaterThan60": 6
+  },
+  "total": 42
+  },
+  {
+  "name": "Mosquera",
+  "sexM": 6,
+  "sexF": 2,
+  "recovered": 2,
+  "inHouse": 5,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 3,
+  "between40And60": 4,
+  "greaterThan60": 1
+  },
+  "total": 8
+  },
+  {
+  "name": "La Unión",
+  "sexM": 1,
+  "sexF": 1,
+  "recovered": 2,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 0,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 2
+  },
+  {
+  "name": "Fusagasugá",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 1,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "La Calera",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 1,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Villeta",
+  "sexM": 2,
+  "sexF": 2,
+  "recovered": 2,
+  "inHouse": 2,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 2,
+  "between40And60": 2,
+  "greaterThan60": 0
+  },
+  "total": 4
+  },
+  {
+  "name": "Palermo",
+  "sexM": 2,
+  "sexF": 1,
+  "recovered": 3,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 2,
+  "greaterThan60": 0
+  },
+  "total": 3
+  },
+  {
+  "name": "San Pedro",
+  "sexM": 1,
+  "sexF": 2,
+  "recovered": 1,
+  "inHouse": 2,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 3,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 3
+  },
+  {
+  "name": "Calima",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 1,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Funza",
+  "sexM": 2,
+  "sexF": 6,
+  "recovered": 0,
+  "inHouse": 8,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 4,
+  "between40And60": 2,
+  "greaterThan60": 1
+  },
+  "total": 8
+  },
+  {
+  "name": "Tuluá",
+  "sexM": 7,
+  "sexF": 7,
+  "recovered": 3,
+  "inHouse": 10,
+  "inHospital": 1,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 6,
+  "between40And60": 5,
+  "greaterThan60": 2
+  },
+  "total": 14
+  },
+  {
+  "name": "Soledad",
+  "sexM": 12,
+  "sexF": 13,
+  "recovered": 5,
+  "inHouse": 17,
+  "inHospital": 0,
+  "dead": 2,
+  "ageRange": {
+  "smallerThan20": 6,
+  "between20And40": 7,
+  "between40And60": 8,
+  "greaterThan60": 4
+  },
+  "total": 25
+  },
+  {
+  "name": "El Dovio",
+  "sexM": 2,
+  "sexF": 2,
+  "recovered": 3,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 2,
+  "greaterThan60": 2
+  },
+  "total": 4
+  },
+  {
+  "name": "Santana",
+  "sexM": 2,
+  "sexF": 2,
+  "recovered": 2,
+  "inHouse": 2,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 0,
+  "between40And60": 2,
+  "greaterThan60": 1
+  },
+  "total": 4
+  },
+  {
+  "name": "Frontino",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 1,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 0,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Tunja",
+  "sexM": 3,
+  "sexF": 4,
+  "recovered": 2,
+  "inHouse": 4,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 5,
+  "between40And60": 0,
+  "greaterThan60": 2
+  },
+  "total": 7
+  },
+  {
+  "name": "Tocancipá",
+  "sexM": 1,
+  "sexF": 2,
+  "recovered": 2,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 2,
+  "between40And60": 0,
+  "greaterThan60": 1
+  },
+  "total": 3
+  },
+  {
+  "name": "Puerto Colombia",
+  "sexM": 2,
+  "sexF": 2,
+  "recovered": 0,
+  "inHouse": 4,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 1,
+  "greaterThan60": 2
+  },
+  "total": 4
+  },
+  {
+  "name": "Sahagún",
+  "sexM": 0,
+  "sexF": 1,
+  "recovered": 1,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Pasto",
+  "sexM": 12,
+  "sexF": 6,
+  "recovered": 5,
+  "inHouse": 10,
+  "inHospital": 0,
+  "dead": 2,
+  "ageRange": {
+  "smallerThan20": 2,
+  "between20And40": 5,
+  "between40And60": 8,
+  "greaterThan60": 3
+  },
+  "total": 18
+  },
+  {
+  "name": "Polonuevo",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 1,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 0,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Villapinzón",
+  "sexM": 4,
+  "sexF": 2,
+  "recovered": 0,
+  "inHouse": 4,
+  "inHospital": 0,
+  "dead": 2,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 2,
+  "between40And60": 0,
+  "greaterThan60": 4
+  },
+  "total": 6
+  },
+  {
+  "name": "Montebello",
+  "sexM": 1,
+  "sexF": 2,
+  "recovered": 0,
+  "inHouse": 3,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 2,
+  "greaterThan60": 1
+  },
+  "total": 3
+  },
+  {
+  "name": "Santa Rosa de Osos",
+  "sexM": 1,
+  "sexF": 1,
+  "recovered": 2,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 2
+  },
+  {
+  "name": "Turbaco",
+  "sexM": 7,
+  "sexF": 4,
+  "recovered": 2,
+  "inHouse": 8,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 5,
+  "between40And60": 4,
+  "greaterThan60": 2
+  },
+  "total": 11
+  },
+  {
+  "name": "Sincelejo",
+  "sexM": 0,
+  "sexF": 1,
+  "recovered": 1,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "La Ceja",
+  "sexM": 1,
+  "sexF": 1,
+  "recovered": 1,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 1
+  },
+  "total": 2
+  },
+  {
+  "name": "San Francisco",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 0,
+  "greaterThan60": 1
+  },
+  "total": 1
+  },
+  {
+  "name": "Lorica",
+  "sexM": 2,
+  "sexF": 0,
+  "recovered": 1,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 1
+  },
+  "total": 2
+  },
+  {
+  "name": "Oicatá",
+  "sexM": 0,
+  "sexF": 1,
+  "recovered": 1,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 0,
+  "greaterThan60": 1
+  },
+  "total": 1
+  },
+  {
+  "name": "Arjona",
+  "sexM": 2,
+  "sexF": 2,
+  "recovered": 0,
+  "inHouse": 4,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 4,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 4
+  },
+  {
+  "name": "Sopó",
+  "sexM": 1,
+  "sexF": 2,
+  "recovered": 2,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 1,
+  "greaterThan60": 1
+  },
+  "total": 3
+  },
+  {
+  "name": "Ciénaga",
+  "sexM": 18,
+  "sexF": 4,
+  "recovered": 1,
+  "inHouse": 20,
+  "inHospital": 1,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 2,
+  "between20And40": 17,
+  "between40And60": 3,
+  "greaterThan60": 0
+  },
+  "total": 22
+  },
+  {
+  "name": "San Andrés de Tumaco",
+  "sexM": 9,
+  "sexF": 2,
+  "recovered": 1,
+  "inHouse": 8,
+  "inHospital": 1,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 5,
+  "between20And40": 3,
+  "between40And60": 1,
+  "greaterThan60": 2
+  },
+  "total": 11
+  },
+  {
+  "name": "Riohacha",
+  "sexM": 1,
+  "sexF": 1,
+  "recovered": 1,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 2,
+  "greaterThan60": 0
+  },
+  "total": 2
+  },
+  {
+  "name": "Zipaquirá",
+  "sexM": 4,
+  "sexF": 8,
+  "recovered": 3,
+  "inHouse": 8,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 2,
+  "between20And40": 4,
+  "between40And60": 4,
+  "greaterThan60": 2
+  },
+  "total": 12
+  },
+  {
+  "name": "Puerto Santander",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Togüí",
+  "sexM": 8,
+  "sexF": 4,
+  "recovered": 2,
+  "inHouse": 10,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 3,
+  "between20And40": 4,
+  "between40And60": 3,
+  "greaterThan60": 2
+  },
+  "total": 12
+  },
+  {
+  "name": "Montenegro",
+  "sexM": 0,
+  "sexF": 3,
+  "recovered": 0,
+  "inHouse": 2,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 1
+  },
+  "total": 3
+  },
+  {
+  "name": "Cumbal",
+  "sexM": 2,
+  "sexF": 1,
+  "recovered": 1,
+  "inHouse": 2,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 0,
+  "between40And60": 2,
+  "greaterThan60": 0
+  },
+  "total": 3
+  },
+  {
+  "name": "Ulloa",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 1,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Santander de Quilichao",
+  "sexM": 0,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 0,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Filandia",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Circasia",
+  "sexM": 1,
+  "sexF": 2,
+  "recovered": 1,
+  "inHouse": 2,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 1,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 3
+  },
+  {
+  "name": "Anserma",
+  "sexM": 0,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Donmatías",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 1,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Caldas",
+  "sexM": 2,
+  "sexF": 1,
+  "recovered": 2,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 2,
+  "between40And60": 0,
+  "greaterThan60": 1
+  },
+  "total": 3
+  },
+  {
+  "name": "Choachí",
+  "sexM": 0,
+  "sexF": 1,
+  "recovered": 1,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Cocorná",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Montería",
+  "sexM": 8,
+  "sexF": 8,
+  "recovered": 1,
+  "inHouse": 14,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 2,
+  "between20And40": 6,
+  "between40And60": 7,
+  "greaterThan60": 1
+  },
+  "total": 16
+  },
+  {
+  "name": "Guacarí",
+  "sexM": 1,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 2,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 2,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 2
+  },
+  {
+  "name": "Tenjo",
+  "sexM": 3,
+  "sexF": 3,
+  "recovered": 0,
+  "inHouse": 3,
+  "inHospital": 1,
+  "dead": 2,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 3,
+  "between40And60": 3,
+  "greaterThan60": 0
+  },
+  "total": 6
+  },
+  {
+  "name": "Buenaventura",
+  "sexM": 11,
+  "sexF": 8,
+  "recovered": 0,
+  "inHouse": 16,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 7,
+  "between40And60": 6,
+  "greaterThan60": 5
+  },
+  "total": 19
+  },
+  {
+  "name": "Acacías",
+  "sexM": 5,
+  "sexF": 0,
+  "recovered": 1,
+  "inHouse": 4,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 4,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 5
+  },
+  {
+  "name": "Barrancabermeja",
+  "sexM": 3,
+  "sexF": 3,
+  "recovered": 2,
+  "inHouse": 3,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 5,
+  "greaterThan60": 0
+  },
+  "total": 6
+  },
+  {
+  "name": "San Juan de Rioseco",
+  "sexM": 1,
+  "sexF": 1,
+  "recovered": 1,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 2,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 2
+  },
+  {
+  "name": "Angostura",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Puerto Tejada",
+  "sexM": 2,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 0,
+  "inHospital": 2,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 2,
+  "greaterThan60": 0
+  },
+  "total": 2
+  },
+  {
+  "name": "Ponedera",
+  "sexM": 0,
+  "sexF": 1,
+  "recovered": 1,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Santo Tomás",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 1,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Galapa",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Ciénaga de Oro",
+  "sexM": 0,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 0,
+  "greaterThan60": 1
+  },
+  "total": 1
+  },
+  {
+  "name": "Santa Rosa de Cabal",
+  "sexM": 2,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 3,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 2,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 3
+  },
+  {
+  "name": "La Tebaida",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 1,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Miranda",
+  "sexM": 3,
+  "sexF": 3,
+  "recovered": 0,
+  "inHouse": 4,
+  "inHospital": 1,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 2,
+  "between20And40": 0,
+  "between40And60": 3,
+  "greaterThan60": 1
+  },
+  "total": 6
+  },
+  {
+  "name": "Jamundí",
+  "sexM": 5,
+  "sexF": 5,
+  "recovered": 3,
+  "inHouse": 6,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 6,
+  "between40And60": 3,
+  "greaterThan60": 1
+  },
+  "total": 10
+  },
+  {
+  "name": "Copacabana",
+  "sexM": 4,
+  "sexF": 4,
+  "recovered": 0,
+  "inHouse": 8,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 5,
+  "between40And60": 3,
+  "greaterThan60": 0
+  },
+  "total": 8
+  },
+  {
+  "name": "Tenza",
+  "sexM": 1,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 2,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 2,
+  "greaterThan60": 0
+  },
+  "total": 2
+  },
+  {
+  "name": "Ginebra",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Andalucía",
+  "sexM": 0,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 0,
+  "inHospital": 1,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 0,
+  "greaterThan60": 1
+  },
+  "total": 1
+  },
+  {
+  "name": "Garagoa",
+  "sexM": 0,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Santa Sofía",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 0,
+  "greaterThan60": 1
+  },
+  "total": 1
+  },
+  {
+  "name": "Facatativá",
+  "sexM": 1,
+  "sexF": 2,
+  "recovered": 0,
+  "inHouse": 3,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 2,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 3
+  },
+  {
+  "name": "Contadero",
+  "sexM": 0,
+  "sexF": 1,
+  "recovered": 1,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Cumbitara",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 1,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 0,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Ocaña",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 0,
+  "greaterThan60": 1
+  },
+  "total": 1
+  },
+  {
+  "name": "Cimitarra",
+  "sexM": 1,
+  "sexF": 1,
+  "recovered": 2,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 2
+  },
+  {
+  "name": "Concepción",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 1,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 0,
+  "greaterThan60": 1
+  },
+  "total": 1
+  },
+  {
+  "name": "Curití",
+  "sexM": 0,
+  "sexF": 1,
+  "recovered": 1,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 0,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Espinal",
+  "sexM": 2,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 2,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 2,
+  "greaterThan60": 0
+  },
+  "total": 3
+  },
+  {
+  "name": "Socha",
+  "sexM": 1,
+  "sexF": 2,
+  "recovered": 0,
+  "inHouse": 3,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 2,
+  "between40And60": 0,
+  "greaterThan60": 1
+  },
+  "total": 3
+  },
+  {
+  "name": "San Diego",
+  "sexM": 1,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 1,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 2,
+  "greaterThan60": 0
+  },
+  "total": 2
+  },
+  {
+  "name": "Bugalagrande",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Villa de San Diego de Ubaté",
+  "sexM": 0,
+  "sexF": 2,
+  "recovered": 1,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 2
+  },
+  {
+  "name": "El Santuario",
+  "sexM": 0,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Fundación",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 0,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Cogua",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 0,
+  "inHospital": 1,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 0,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Sogamoso",
+  "sexM": 0,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 0,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Cereté",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Tierralta",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Suesca",
+  "sexM": 2,
+  "sexF": 2,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 2,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 1,
+  "greaterThan60": 3
+  },
+  "total": 4
+  },
+  {
+  "name": "Agrado",
+  "sexM": 0,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Gigante",
+  "sexM": 1,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 2,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 0,
+  "greaterThan60": 2
+  },
+  "total": 2
+  },
+  {
+  "name": "Pitalito",
+  "sexM": 0,
+  "sexF": 3,
+  "recovered": 0,
+  "inHouse": 2,
+  "inHospital": 1,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 0,
+  "between40And60": 1,
+  "greaterThan60": 1
+  },
+  "total": 3
+  },
+  {
+  "name": "Chocó",
+  "sexM": 2,
+  "sexF": 8,
+  "recovered": 0,
+  "inHouse": 9,
+  "inHospital": 1,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 3,
+  "between40And60": 6,
+  "greaterThan60": 1
+  },
+  "total": 10
+  },
+  {
+  "name": "Candelaria",
+  "sexM": 1,
+  "sexF": 2,
+  "recovered": 0,
+  "inHouse": 3,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 0,
+  "between40And60": 2,
+  "greaterThan60": 0
+  },
+  "total": 3
+  },
+  {
+  "name": "El Cerrito",
+  "sexM": 5,
+  "sexF": 6,
+  "recovered": 0,
+  "inHouse": 10,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 3,
+  "between20And40": 3,
+  "between40And60": 3,
+  "greaterThan60": 2
+  },
+  "total": 11
+  },
+  {
+  "name": "Florida",
+  "sexM": 4,
+  "sexF": 4,
+  "recovered": 0,
+  "inHouse": 7,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 4,
+  "greaterThan60": 4
+  },
+  "total": 8
+  },
+  {
+  "name": "Yotoco",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Zona Bananera",
+  "sexM": 1,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 1,
+  "greaterThan60": 1
+  },
+  "total": 2
+  },
+  {
+  "name": "Baranoa",
+  "sexM": 1,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 2,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 0,
+  "greaterThan60": 2
+  },
+  "total": 2
+  },
+  {
+  "name": "Malambo",
+  "sexM": 2,
+  "sexF": 2,
+  "recovered": 0,
+  "inHouse": 2,
+  "inHospital": 2,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 2
+  },
+  "total": 4
+  },
+  {
+  "name": "San Pedro de Urabá",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Melgar",
+  "sexM": 1,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 2,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 2
+  },
+  {
+  "name": "San Cristóbal",
+  "sexM": 2,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 1,
+  "greaterThan60": 1
+  },
+  "total": 2
+  },
+  {
+  "name": "Santa Fé de Antioquia",
+  "sexM": 0,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 0,
+  "greaterThan60": 1
+  },
+  "total": 1
+  },
+  {
+  "name": "San Martín",
+  "sexM": 1,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 0,
+  "inHospital": 1,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 1
+  },
+  "total": 2
+  },
+  {
+  "name": "Timbío",
+  "sexM": 0,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 0,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "La Virginia",
+  "sexM": 0,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Granada",
+  "sexM": 1,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 1,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 1
+  },
+  "total": 2
+  },
+  {
+  "name": "Sonsón",
+  "sexM": 2,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 1,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 0,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 2
+  },
+  {
+  "name": "Túquerres",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 0,
+  "inHospital": 1,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 0,
+  "greaterThan60": 1
+  },
+  "total": 1
+  },
+  {
+  "name": "Restrepo",
+  "sexM": 1,
+  "sexF": 2,
+  "recovered": 0,
+  "inHouse": 3,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 3,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 3
+  },
+  {
+  "name": "El Banco",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 0,
+  "greaterThan60": 1
+  },
+  "total": 1
+  },
+  {
+  "name": "Barranco de Loba",
+  "sexM": 0,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Leticia",
+  "sexM": 9,
+  "sexF": 5,
+  "recovered": 0,
+  "inHouse": 11,
+  "inHospital": 2,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 2,
+  "between20And40": 5,
+  "between40And60": 6,
+  "greaterThan60": 1
+  },
+  "total": 14
+  },
+  {
+  "name": "Amagá",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Sibaté",
+  "sexM": 1,
+  "sexF": 2,
+  "recovered": 0,
+  "inHouse": 2,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 0,
+  "between40And60": 2,
+  "greaterThan60": 0
+  },
+  "total": 3
+  },
+  {
+  "name": "Florencia",
+  "sexM": 2,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 1
+  },
+  "total": 2
+  },
+  {
+  "name": "Paicol",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Acevedo",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 0,
+  "inHospital": 1,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 0,
+  "greaterThan60": 1
+  },
+  "total": 1
+  },
+  {
+  "name": "Timaná",
+  "sexM": 1,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 0,
+  "inHospital": 1,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 1,
+  "greaterThan60": 1
+  },
+  "total": 2
+  },
+  {
+  "name": "Isnos",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 0,
+  "greaterThan60": 1
+  },
+  "total": 1
+  },
+  {
+  "name": "San Agustín",
+  "sexM": 0,
+  "sexF": 2,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 1,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 2
+  },
+  {
+  "name": "Garzón",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Vijes",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Aquitania",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Aipe",
+  "sexM": 0,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Cundinamarca",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 1,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 0,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Calamar",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 0,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 0,
+  "greaterThan60": 1
+  },
+  "total": 1
+  },
+  {
+  "name": "Marsella",
+  "sexM": 0,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 1,
+  "between20And40": 0,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Sabanagrande",
+  "sexM": 0,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Guaduas",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Piedecuesta",
+  "sexM": 1,
+  "sexF": 0,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 0,
+  "greaterThan60": 1
+  },
+  "total": 1
+  },
+  {
+  "name": "Barbosa",
+  "sexM": 0,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Santa Rosa",
+  "sexM": 0,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Bosconia",
+  "sexM": 0,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 1,
+  "between40And60": 0,
+  "greaterThan60": 0
+  },
+  "total": 1
+  },
+  {
+  "name": "Cuaspúd",
+  "sexM": 0,
+  "sexF": 1,
+  "recovered": 0,
+  "inHouse": 1,
+  "inHospital": 0,
+  "dead": 0,
+  "ageRange": {
+  "smallerThan20": 0,
+  "between20And40": 0,
+  "between40And60": 1,
+  "greaterThan60": 0
+  },
+  "total": 1
+  }
+  ]
+  }
+  }

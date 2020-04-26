@@ -1,23 +1,24 @@
-const express = require('express');
-const axios = require('axios');
-const moment = require('moment');
-const momentTz = require('moment-timezone');
-const { config } = require('../config');
-const DepartamentsService = require('../services/departaments');
-const ColombiaService = require('../services/colombia');
+const express = require("express");
+const axios = require("axios");
+const moment = require("moment");
+const momentTz = require("moment-timezone");
+const { config } = require("../config");
+const DepartamentsService = require("../services/departaments");
+const ColombiaService = require("../services/colombia");
 
 function covidApi(app) {
-  moment.locale('es');
+  moment.locale("es");
   momentTz().tz("America/Bogota").format();
   const router = express.Router();
-  app.use('/api', router);
+  app.use("/api", router);
   const departamentService = new DepartamentsService();
   const colombiaService = new ColombiaService();
-  router.get('/setData', async function (req, res) {
+  router.get("/setData", async function (req, res) {
     const today = moment(new Date());
-    const todayFormat = moment(today).format('DD/MM/YYYY');
+    const todayFormat = moment(today).format("DD-MM-YYYY");
     const hourFormat = moment(today).format("hh:mm a");
-    axios.get(config.urlApi)
+    axios
+      .get(config.urlApi)
       .then(async function (response) {
         const purifyDepartaments = [];
         const departaments = [];
@@ -27,23 +28,24 @@ function covidApi(app) {
           recovered: 0,
           inHouse: 0,
           inHospital: 0,
+          uci: 0,
           dead: 0,
           ageRange: {
             smallerThan20: 0,
             between20And40: 0,
             between40And60: 0,
-            greaterThan60: 0
+            greaterThan60: 0,
           },
-          total: 0
+          total: 0,
         };
 
         const data = response.data.data;
-        data.map(item => {
+        data.map((item) => {
           if (purifyDepartaments.indexOf(item[11]) === -1) {
             purifyDepartaments.push(item[11]);
           }
         });
-        purifyDepartaments.map(dep => {
+        purifyDepartaments.map((dep) => {
           departaments.push({
             name: dep,
             sexM: 0,
@@ -51,30 +53,33 @@ function covidApi(app) {
             recovered: 0,
             inHouse: 0,
             inHospital: 0,
+            uci: 0,
             dead: 0,
             ageRange: {
               smallerThan20: 0,
               between20And40: 0,
               between40And60: 0,
-              greaterThan60: 0
+              greaterThan60: 0,
             },
             total: 0,
-          })
+          });
         });
-        data.map(item => {
+        data.map((item) => {
           colombia.total++;
-          if (item[15] === 'F') {
-            colombia.sexF++
+          if (item[15] === "F") {
+            colombia.sexF++;
           } else {
-            colombia.sexM++
+            colombia.sexM++;
           }
-          if (item[13] === 'Recuperado') {
+          if (item[13] === "Recuperado") {
             colombia.recovered++;
-          } else if (item[13] === 'Hospital') {
+          } else if (item[13] === "Hospital") {
             colombia.inHospital++;
-          } else if (item[13] === 'Casa') {
+          } else if (item[13] === "Hospital UCI") {
+            colombia.uci++;
+          } else if (item[13] === "Casa") {
             colombia.inHouse++;
-          } else if (item[13] === 'Fallecido') {
+          } else if (item[13] === "Fallecido") {
             colombia.dead++;
           }
           if (Number(item[14]) <= 20) {
@@ -86,21 +91,23 @@ function covidApi(app) {
           } else if (Number(item[14]) > 60) {
             colombia.ageRange.greaterThan60++;
           }
-          departaments.map(dep => {
+          departaments.map((dep) => {
             if (item[11] === dep.name) {
               dep.total++;
-              if (item[15] === 'F') {
-                dep.sexF++
+              if (item[15] === "F") {
+                dep.sexF++;
               } else {
-                dep.sexM++
+                dep.sexM++;
               }
-              if (item[13] === 'Recuperado') {
+              if (item[13] === "Recuperado") {
                 dep.recovered++;
-              } else if (item[13] === 'Hospital') {
+              } else if (item[13] === "Hospital") {
                 dep.inHospital++;
-              } else if (item[13] === 'Casa') {
+              } else if (item[13] === "Casa") {
                 dep.inHouse++;
-              } else if (item[13] === 'Fallecido') {
+              } else if (item[13] === "Hospital UCI") {
+                dep.uci++;
+              } else if (item[13] === "Fallecido") {
                 dep.dead++;
               }
               if (Number(item[14]) <= 20) {
@@ -116,67 +123,70 @@ function covidApi(app) {
           });
         });
         try {
-          const insertDepartaments = await departamentService.createDepartament({
-            date: todayFormat,
-            hour: hourFormat,
-            data: departaments
-          });
+          const insertDepartaments = await departamentService.createDepartament(
+            {
+              date: todayFormat,
+              hour: hourFormat,
+              data: departaments,
+            }
+          );
           const insertGlobalData = await colombiaService.createData({
             date: todayFormat,
             hour: hourFormat,
-            data: colombia
+            data: colombia,
           });
           res.send({
             insertGlobalData,
             insertDepartaments,
-            message: "successful..."
+            status: 201,
+            message: "operation excecuted",
           });
         } catch (err) {
-          console.log(err)
+          console.log(err);
           res.send({
             error: true,
-            message: 'Ha ocurrido un error'
+            message: "Ha ocurrido un error",
           });
         }
       })
       .catch(function (error) {
-        console.log(error)
+        console.log(error);
         res.send({
           error: true,
-          message: 'Ha ocurrido un error'
+          message: "Ha ocurrido un error",
         });
       });
   });
-  router.get('/departaments/:date', async function (req, res) {
+  router.get("/departaments/:date", async function (req, res) {
     const { date } = req.params;
     try {
       const departaments = await departamentService.getDepartaments({ date });
       res.send({
-        status: 'ok',
-        departaments
+        status: 200,
+        departaments,
       });
     } catch (err) {
       res.send({
-        status: "error",
+        status: 500,
         error: err.message,
-      })
+      });
     }
   });
-  router.get('/colombia/:date', async function (req, res) {
+  router.get("/colombia/:date", async function (req, res) {
     const { date } = req.params;
     try {
       const data = await colombiaService.getData({ date });
       res.send({
-        status: 'ok',
-        data
+        status: 200,
+        data,
       });
     } catch (err) {
       res.send({
-        status: 'error',
+        status: 500,
         error: err.message,
-      })
+      });
     }
   });
-};
+}
 
 module.exports = covidApi;
