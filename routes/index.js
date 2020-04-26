@@ -14,7 +14,7 @@ function covidApi(app) {
   const departamentService = new DepartamentsService();
   const colombiaService = new ColombiaService();
   router.get("/setData", async function (req, res) {
-    const today = moment(new Date());
+    const today = moment();
     const todayFormat = moment(today).format("DD-MM-YYYY");
     const hourFormat = moment(today).format("hh:mm a");
     axios
@@ -71,15 +71,18 @@ function covidApi(app) {
           } else {
             colombia.sexM++;
           }
-          if (item[13] === "Recuperado") {
+          if (item[13] === "Recuperado" || item[13] === "recuperado") {
             colombia.recovered++;
-          } else if (item[13] === "Hospital") {
+          } else if (item[13] === "Hospital" || item[13] === "hospital") {
             colombia.inHospital++;
-          } else if (item[13] === "Hospital UCI") {
+          } else if (
+            item[13] === "Hospital UCI" ||
+            item[13] === "hospital uci"
+          ) {
             colombia.uci++;
-          } else if (item[13] === "Casa") {
+          } else if (item[13] === "Casa" || item[13] === "casa") {
             colombia.inHouse++;
-          } else if (item[13] === "Fallecido") {
+          } else if (item[13] === "Fallecido" || item[13] === "fallecido") {
             colombia.dead++;
           }
           if (Number(item[14]) <= 20) {
@@ -139,6 +142,9 @@ function covidApi(app) {
             insertGlobalData,
             insertDepartaments,
             status: 201,
+            date: todayFormat,
+            hour: hourFormat,
+            name: colombia.other,
             message: "operation excecuted",
           });
         } catch (err) {
